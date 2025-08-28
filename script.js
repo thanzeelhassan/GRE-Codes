@@ -5,6 +5,7 @@ const stateControl = document.getElementById("stateControl");
 const stateSelect = document.getElementById("stateSelect");
 const resultsTableBody = document.querySelector("#resultsTable tbody");
 const resultCount = document.getElementById("resultCount");
+const searchInput = document.getElementById("searchInput");
 
 /**
  * Expected data shape (data/codes.json):
@@ -94,10 +95,14 @@ function renderRows(institutions) {
 function filterInstitutions(data) {
   const country = countrySelect.value;
   const region = stateSelect.value;
+  const query = (searchInput?.value || "").trim().toLowerCase();
   let rows = data.institutions.filter((i) => i.country === country);
   const countryMeta = data.countries.find((c) => c.code === country);
   if (countryMeta && countryMeta.hasStates && region) {
     rows = rows.filter((i) => i.region === region);
+  }
+  if (query) {
+    rows = rows.filter((i) => i.name.toLowerCase().includes(query));
   }
   renderRows(rows);
 }
@@ -122,6 +127,9 @@ async function init() {
     });
 
     stateSelect.addEventListener("change", () => filterInstitutions(data));
+    if (searchInput) {
+      searchInput.addEventListener("input", () => filterInstitutions(data));
+    }
 
     // Initial placeholder state handled by HTML content
   } catch (e) {
