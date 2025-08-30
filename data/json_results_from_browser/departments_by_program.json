@@ -1,0 +1,1856 @@
+{
+  "departmentsbyprogram": [
+    {
+      "code": "398",
+      "value": "4001 - ACCOUNTING"
+    },
+    {
+      "code": "353",
+      "value": "0809 - ACOUSTICS"
+    },
+    {
+      "code": "338",
+      "value": "0701 - ACTUARIAL SCIENCE"
+    },
+    {
+      "code": "435",
+      "value": "4306 - ACTUARIAL SCIENCE-BUSINESS"
+    },
+    {
+      "code": "384",
+      "value": "3901 - ADULT AND CONTINUING ED"
+    },
+    {
+      "code": "113",
+      "value": "2208 - ADULT DEVELOPMENT AND AGING"
+    },
+    {
+      "code": "465",
+      "value": "4501 - ADVERTISING"
+    },
+    {
+      "code": "58",
+      "value": "1614 - AERONAUTICAL ENGINEERING"
+    },
+    {
+      "code": "45",
+      "value": "1601 - AEROSPACE ENGINEERING"
+    },
+    {
+      "code": "150",
+      "value": "2610 - AFRICAN LANGUAGES & LITERATURE"
+    },
+    {
+      "code": "216",
+      "value": "0116 - AGRI/DOMESTIC ANIMAL SERVICES"
+    },
+    {
+      "code": "217",
+      "value": "0117 - AGRI/FOOD PRODUCT PROCESSING"
+    },
+    {
+      "code": "224",
+      "value": "0199 - AGRI/NAT RESRCS/CONSRVTN-OTH"
+    },
+    {
+      "code": "218",
+      "value": "0118 - AGRICULTURAL BUSINESS/MGMT"
+    },
+    {
+      "code": "201",
+      "value": "0101 - AGRICULTURAL ECONOMICS"
+    },
+    {
+      "code": "391",
+      "value": "3908 - AGRICULTURAL EDUCATION"
+    },
+    {
+      "code": "46",
+      "value": "1602 - AGRICULTURAL ENGINEERING"
+    },
+    {
+      "code": "219",
+      "value": "0119 - AGRICULTURAL MECHANIZATION"
+    },
+    {
+      "code": "202",
+      "value": "0102 - AGRICULTURAL PRODUCTION"
+    },
+    {
+      "code": "203",
+      "value": "0103 - AGRICULTURAL PUBLIC SERVICES"
+    },
+    {
+      "code": "220",
+      "value": "0120 - AGRICULTURE, GENERAL"
+    },
+    {
+      "code": "204",
+      "value": "0104 - AGRONOMY"
+    },
+    {
+      "code": "165",
+      "value": "2801 - ALL PHILOSOPHY FIELDS"
+    },
+    {
+      "code": "302",
+      "value": "0601 - ALLIED HEALTH"
+    },
+    {
+      "code": "325",
+      "value": "0624 - ALTERNATVE & COMPLEMENTARY MED"
+    },
+    {
+      "code": "159",
+      "value": "2701 - AMERICAN HISTORY"
+    },
+    {
+      "code": "135",
+      "value": "2502 - AMERICAN LITERATURE"
+    },
+    {
+      "code": "151",
+      "value": "2611 - AMERICAN SIGN LANGUAGE"
+    },
+    {
+      "code": "111",
+      "value": "2206 - AMERICAN STUDIES"
+    },
+    {
+      "code": "262",
+      "value": "0302 - ANALYTICAL CHEMISTRY"
+    },
+    {
+      "code": "226",
+      "value": "0201 - ANATOMICAL SCIENCES"
+    },
+    {
+      "code": "248",
+      "value": "0223 - ANIMAL BIOLOGY"
+    },
+    {
+      "code": "205",
+      "value": "0105 - ANIMAL SCIENCES"
+    },
+    {
+      "code": "68",
+      "value": "1799 - ANTHROPOL & ARCHAEO-OTHER"
+    },
+    {
+      "code": "66",
+      "value": "1701 - ANTHROPOLOGY"
+    },
+    {
+      "code": "511",
+      "value": "5199 - ANY DEPARTMENT NOT LISTED"
+    },
+    {
+      "code": "479",
+      "value": "4604 - APPAREL AND TEXTILES"
+    },
+    {
+      "code": "72",
+      "value": "1803 - APPLIED ECONOMICS"
+    },
+    {
+      "code": "221",
+      "value": "0121 - APPLIED HORTICULTURE"
+    },
+    {
+      "code": "339",
+      "value": "0702 - APPLIED MATHEMATICS"
+    },
+    {
+      "code": "97",
+      "value": "2017 - APPLIED PSYCHOLOGY"
+    },
+    {
+      "code": "295",
+      "value": "0509 - AQUATIC BIOLOGY/LIMNOLOGY"
+    },
+    {
+      "code": "463",
+      "value": "4499 - ARCH & ENVIRONMNTL DESIGN-OTHR"
+    },
+    {
+      "code": "460",
+      "value": "4407 - ARCH HISTORY & CRITICISM"
+    },
+    {
+      "code": "461",
+      "value": "4408 - ARCH SCIENCES & TECHNOLOGY"
+    },
+    {
+      "code": "67",
+      "value": "1702 - ARCHAEOLOGY"
+    },
+    {
+      "code": "8",
+      "value": "1101 - ARCHITECTURAL ENGINEERING"
+    },
+    {
+      "code": "454",
+      "value": "4401 - ARCHITECTURE"
+    },
+    {
+      "code": "488",
+      "value": "4702 - ARCHIVES & ARCHIVAL ADMIN"
+    },
+    {
+      "code": "106",
+      "value": "2201 - AREA ETHNC CULT GEN GROUP STD"
+    },
+    {
+      "code": "117",
+      "value": "2301 - ART HIST CRITICISM CONSERV"
+    },
+    {
+      "code": "121",
+      "value": "2399 - ART-HIST THEORY CRITICSM-OTHR"
+    },
+    {
+      "code": "177",
+      "value": "2999 - ARTS AND HUMANITIES-OTHER"
+    },
+    {
+      "code": "123",
+      "value": "2401 - ARTS ENTERTAINMENT MEDIA MGMT"
+    },
+    {
+      "code": "132",
+      "value": "2499 - ARTS-PERFORMANCE STUDIO-OTHER"
+    },
+    {
+      "code": "141",
+      "value": "2601 - ASIATIC LANGUAGES & LITERATURE"
+    },
+    {
+      "code": "345",
+      "value": "0801 - ASTRONOMY"
+    },
+    {
+      "code": "346",
+      "value": "0802 - ASTROPHYSICS"
+    },
+    {
+      "code": "526",
+      "value": "0636 - ATHLETIC TRAINING"
+    },
+    {
+      "code": "287",
+      "value": "0501 - ATMOSPHERIC SCIENCES"
+    },
+    {
+      "code": "347",
+      "value": "0803 - ATOMIC/MOLECULAR PHYSICS"
+    },
+    {
+      "code": "303",
+      "value": "0602 - AUDIOLOGY"
+    },
+    {
+      "code": "400",
+      "value": "4003 - AUDITING"
+    },
+    {
+      "code": "246",
+      "value": "0221 - BACTERIOLOGY"
+    },
+    {
+      "code": "402",
+      "value": "4101 - BANKING & FINANCL SPPRT SRVCS"
+    },
+    {
+      "code": "385",
+      "value": "3902 - BI/MULTILINGL & MULTICULTRL ED"
+    },
+    {
+      "code": "59",
+      "value": "1615 - BIOCHEMICAL ENGINEERING"
+    },
+    {
+      "code": "227",
+      "value": "0202 - BIOCHEMISTRY"
+    },
+    {
+      "code": "326",
+      "value": "0625 - BIOETHICS/MEDICAL ETHICS"
+    },
+    {
+      "code": "249",
+      "value": "0224 - BIOINFORMATICS"
+    },
+    {
+      "code": "296",
+      "value": "0510 - BIOLOGICAL OCEANOGRAPHY"
+    },
+    {
+      "code": "228",
+      "value": "0203 - BIOLOGY, GENERAL"
+    },
+    {
+      "code": "259",
+      "value": "0299 - BIOLOGY/BIOMED SCIENCE-OTHER"
+    },
+    {
+      "code": "250",
+      "value": "0225 - BIOMATHEMATICS"
+    },
+    {
+      "code": "47",
+      "value": "1603 - BIOMEDICAL/MEDICAL ENGINEERING"
+    },
+    {
+      "code": "229",
+      "value": "0204 - BIOMETRY"
+    },
+    {
+      "code": "247",
+      "value": "0222 - BIOPHYSICS"
+    },
+    {
+      "code": "251",
+      "value": "0226 - BIOTECHNOLOGY"
+    },
+    {
+      "code": "230",
+      "value": "0205 - BOTANY/PLANT BIOLOGY"
+    },
+    {
+      "code": "409",
+      "value": "4201 - BUSINESS ADMIN & MGMT"
+    },
+    {
+      "code": "428",
+      "value": "4299 - BUSINESS ADMIN & MGMT-OTHER"
+    },
+    {
+      "code": "422",
+      "value": "4214 - BUSINESS OPERATIONS"
+    },
+    {
+      "code": "448",
+      "value": "4319 - BUSINESS STATISTICS"
+    },
+    {
+      "code": "452",
+      "value": "4399 - BUSINESS-OTHER"
+    },
+    {
+      "code": "447",
+      "value": "4318 - BUSINESS/CORP COMMUNICATIONS"
+    },
+    {
+      "code": "430",
+      "value": "4301 - BUSINESS/MANAGERIAL ECONOMICS"
+    },
+    {
+      "code": "231",
+      "value": "0206 - CELL/CELLULAR BIOLOGY"
+    },
+    {
+      "code": "152",
+      "value": "2612 - CELTIC LANGUAGES & LITERATURE"
+    },
+    {
+      "code": "34",
+      "value": "1401 - CERAMIC SCIS/ENGINEERING"
+    },
+    {
+      "code": "5",
+      "value": "1004 - CHEM/BIOMOLECULAR ENGINEERING"
+    },
+    {
+      "code": "2",
+      "value": "1001 - CHEMICAL ENGINEERING"
+    },
+    {
+      "code": "6",
+      "value": "1099 - CHEMICAL ENGINEERING-OTHER"
+    },
+    {
+      "code": "267",
+      "value": "0307 - CHEMICAL PLASTICS"
+    },
+    {
+      "code": "261",
+      "value": "0301 - CHEMISTRY, GENERAL"
+    },
+    {
+      "code": "272",
+      "value": "0399 - CHEMISTRY-OTHER"
+    },
+    {
+      "code": "304",
+      "value": "0603 - CHIROPRACTIC"
+    },
+    {
+      "code": "455",
+      "value": "4402 - CITY URBN COMMNTY REG PLANNING"
+    },
+    {
+      "code": "9",
+      "value": "1102 - CIVIL ENGINEERING"
+    },
+    {
+      "code": "17",
+      "value": "1199 - CIVIL ENGINEERING-OTHER"
+    },
+    {
+      "code": "171",
+      "value": "2901 - CLASSICS"
+    },
+    {
+      "code": "149",
+      "value": "2609 - CLASSICS, CLASSICAL LANG/LIT"
+    },
+    {
+      "code": "81",
+      "value": "2001 - CLINICAL PSYCHOLOGY"
+    },
+    {
+      "code": "327",
+      "value": "0626 - CLINICAL/MED LAB SCI/RESEARCH"
+    },
+    {
+      "code": "82",
+      "value": "2002 - COGNITIVE PSYCHOLOGY"
+    },
+    {
+      "code": "379",
+      "value": "3801 - COLLEGE COUNSLNG/PERSNNL SRVCS"
+    },
+    {
+      "code": "328",
+      "value": "0627 - COMMUN DISORDER SCI/SRVCES"
+    },
+    {
+      "code": "471",
+      "value": "4507 - COMMUNICATION & MEDIA STUDIES"
+    },
+    {
+      "code": "474",
+      "value": "4599 - COMMUNICATION JOURNALISM-OTHER"
+    },
+    {
+      "code": "466",
+      "value": "4502 - COMMUNICATION TECHNOLOGIES"
+    },
+    {
+      "code": "20",
+      "value": "1202 - COMMUNICATIONS ENGINEERING"
+    },
+    {
+      "code": "492",
+      "value": "4802 - COMMUNITY ORG & ADVOCACY"
+    },
+    {
+      "code": "83",
+      "value": "2003 - COMMUNITY PSYCHOLOGY"
+    },
+    {
+      "code": "84",
+      "value": "2004 - COMPARATIVE PSYCHOLOGY"
+    },
+    {
+      "code": "281",
+      "value": "0408 - COMPTR SOFTWRE/MEDIA APPLCTNS"
+    },
+    {
+      "code": "252",
+      "value": "0227 - COMPUTATIONAL BIOLOGY"
+    },
+    {
+      "code": "19",
+      "value": "1201 - COMPUTER ENGINEERING"
+    },
+    {
+      "code": "23",
+      "value": "1205 - COMPUTER HARDWARE ENGINEERING"
+    },
+    {
+      "code": "274",
+      "value": "0401 - COMPUTER PROGRAMMING"
+    },
+    {
+      "code": "275",
+      "value": "0402 - COMPUTER SCIENCE"
+    },
+    {
+      "code": "24",
+      "value": "1206 - COMPUTER SOFTWARE ENGINEERING"
+    },
+    {
+      "code": "283",
+      "value": "0410 - COMPUTER SYS NETWORKNG/TELECOM"
+    },
+    {
+      "code": "282",
+      "value": "0409 - COMPUTER SYSTEMS ANALYSIS"
+    },
+    {
+      "code": "280",
+      "value": "0407 - COMPUTER/INFO SCIENCE-GENERAL"
+    },
+    {
+      "code": "285",
+      "value": "0499 - COMPUTER/INFO SCIENCE-OTHER"
+    },
+    {
+      "code": "284",
+      "value": "0411 - COMPUTER/INFO TECH ADMIN/MGMT"
+    },
+    {
+      "code": "354",
+      "value": "0810 - CONDENS MATTER & MATER PHYSICS"
+    },
+    {
+      "code": "11",
+      "value": "1104 - CONSTRUCTION ENGINEERING"
+    },
+    {
+      "code": "423",
+      "value": "4215 - CONSTRUCTION MANAGEMENT"
+    },
+    {
+      "code": "436",
+      "value": "4307 - CONSULTING"
+    },
+    {
+      "code": "85",
+      "value": "2005 - COUNSELING PSYCHOLOGY"
+    },
+    {
+      "code": "380",
+      "value": "3802 - COUNSELOR EDUCATION"
+    },
+    {
+      "code": "130",
+      "value": "2408 - CRAFTS/CRAFT DESIGN"
+    },
+    {
+      "code": "136",
+      "value": "2503 - CREATIVE WRITING"
+    },
+    {
+      "code": "405",
+      "value": "4104 - CREDIT MANAGEMENT"
+    },
+    {
+      "code": "107",
+      "value": "2202 - CRIMINAL JUSTICE/CRIMINOLOGY"
+    },
+    {
+      "code": "183",
+      "value": "3101 - CURRICULUM AND INSTRUCTION"
+    },
+    {
+      "code": "124",
+      "value": "2402 - DANCE"
+    },
+    {
+      "code": "525",
+      "value": "4323 - DATA ANALYTICS"
+    },
+    {
+      "code": "276",
+      "value": "0403 - DATA PROCESSING"
+    },
+    {
+      "code": "102",
+      "value": "2101 - DEMOGRAPHY"
+    },
+    {
+      "code": "305",
+      "value": "0604 - DENTISTRY AND ORAL SCIENCES"
+    },
+    {
+      "code": "127",
+      "value": "2405 - DESIGN AND APPLIED ARTS"
+    },
+    {
+      "code": "86",
+      "value": "2006 - DEV/CHILD PSYCHOLOGY"
+    },
+    {
+      "code": "233",
+      "value": "0208 - DEVELOPMENTAL BIOLOGY"
+    },
+    {
+      "code": "329",
+      "value": "0628 - DIETETIC/CLIN NUTRITION SRVCES"
+    },
+    {
+      "code": "125",
+      "value": "2403 - DRAMA/THEATRE ARTS"
+    },
+    {
+      "code": "417",
+      "value": "4209 - E-COMMERCE"
+    },
+    {
+      "code": "185",
+      "value": "3201 - EARLY CHILD EDU & TEACHING"
+    },
+    {
+      "code": "300",
+      "value": "0599 - EARTH/ATMOS/MARINE SCI-OTHR"
+    },
+    {
+      "code": "232",
+      "value": "0207 - ECOLOGY"
+    },
+    {
+      "code": "71",
+      "value": "1802 - ECONOMETRICS"
+    },
+    {
+      "code": "70",
+      "value": "1801 - ECONOMICS"
+    },
+    {
+      "code": "74",
+      "value": "1899 - ECONOMICS, OTHER"
+    },
+    {
+      "code": "192",
+      "value": "3402 - ED ASSESSMNT TESTNG MEASRMNT"
+    },
+    {
+      "code": "373",
+      "value": "3702 - ED STU W/ SPECFC DISABILITIES"
+    },
+    {
+      "code": "374",
+      "value": "3703 - ED STUDENTS W/SPECIFIC LD"
+    },
+    {
+      "code": "394",
+      "value": "3911 - EDUCATION, GENERAL"
+    },
+    {
+      "code": "372",
+      "value": "3701 - EDUCATION, GIFTED & TALENTED"
+    },
+    {
+      "code": "396",
+      "value": "3999 - EDUCATION-OTHER"
+    },
+    {
+      "code": "179",
+      "value": "3001 - EDUCATIONAL ADMINISTRATION"
+    },
+    {
+      "code": "197",
+      "value": "3407 - EDUCATIONAL EVAL & RESEARCH"
+    },
+    {
+      "code": "181",
+      "value": "3003 - EDUCATIONAL LEADERSHIP"
+    },
+    {
+      "code": "386",
+      "value": "3903 - EDUCATIONAL MEDIA"
+    },
+    {
+      "code": "365",
+      "value": "3501 - EDUCATIONAL POLICY"
+    },
+    {
+      "code": "193",
+      "value": "3403 - EDUCATIONAL PSYCHOLOGY"
+    },
+    {
+      "code": "180",
+      "value": "3002 - EDUCATIONAL SUPERVISION"
+    },
+    {
+      "code": "191",
+      "value": "3401 - EDUCATIONL STAT/RESRCH METHODS"
+    },
+    {
+      "code": "21",
+      "value": "1203 - ELECTRICAL ENGINEERING"
+    },
+    {
+      "code": "27",
+      "value": "1299 - ELECTRICAL ENGINEERING-OTHER"
+    },
+    {
+      "code": "60",
+      "value": "1616 - ELECTROMECHANICAL ENGINEERING"
+    },
+    {
+      "code": "22",
+      "value": "1204 - ELECTRONICS ENGINEERING"
+    },
+    {
+      "code": "194",
+      "value": "3404 - ELEM/ SECONDARY RESEARCH"
+    },
+    {
+      "code": "188",
+      "value": "3301 - ELEMENTARY EDUCATION/TEACHING"
+    },
+    {
+      "code": "189",
+      "value": "3302 - ELEMENTARY LVL TEACHING FIELDS"
+    },
+    {
+      "code": "355",
+      "value": "0811 - ELEMENTARY PARTICLE PHYSICS"
+    },
+    {
+      "code": "61",
+      "value": "1617 - ENGINEERING CHEMISTRY"
+    },
+    {
+      "code": "41",
+      "value": "1501 - ENGINEERING MECHANICS"
+    },
+    {
+      "code": "48",
+      "value": "1604 - ENGINEERING PHYSICS"
+    },
+    {
+      "code": "49",
+      "value": "1605 - ENGINEERING SCIENCE"
+    },
+    {
+      "code": "64",
+      "value": "1699 - ENGINEERING-OTHER"
+    },
+    {
+      "code": "139",
+      "value": "2599 - ENGLISH LANG & LIT-OTHER"
+    },
+    {
+      "code": "134",
+      "value": "2501 - ENGLISH LANGUAGE & LITERATURE"
+    },
+    {
+      "code": "137",
+      "value": "2504 - ENGLISH LITERATURE"
+    },
+    {
+      "code": "234",
+      "value": "0209 - ENTOMOLOGY"
+    },
+    {
+      "code": "418",
+      "value": "4210 - ENTREPRENEURSHIP"
+    },
+    {
+      "code": "10",
+      "value": "1103 - ENVIRO/ENV HEALTH ENGINEERINGG"
+    },
+    {
+      "code": "268",
+      "value": "0308 - ENVIRONMENTAL CHEMISTRY"
+    },
+    {
+      "code": "456",
+      "value": "4403 - ENVIRONMENTAL DESIGN"
+    },
+    {
+      "code": "306",
+      "value": "0605 - ENVIRONMENTAL HEALTH"
+    },
+    {
+      "code": "288",
+      "value": "0502 - ENVIRONMENTAL SCIENCES"
+    },
+    {
+      "code": "307",
+      "value": "0606 - EPIDEMIOLOGY"
+    },
+    {
+      "code": "166",
+      "value": "2802 - ETHICS"
+    },
+    {
+      "code": "160",
+      "value": "2702 - EUROPEAN HISTORY"
+    },
+    {
+      "code": "253",
+      "value": "0228 - EVOLUTION"
+    },
+    {
+      "code": "330",
+      "value": "0629 - EXERCISE SCIENCE"
+    },
+    {
+      "code": "87",
+      "value": "2007 - EXPERIMENTAL PSYCHOLOGY"
+    },
+    {
+      "code": "476",
+      "value": "4601 - FAMILY AND CONSUMER ECONOMICS"
+    },
+    {
+      "code": "478",
+      "value": "4603 - FAMILY AND CONSUMER SCIENCES"
+    },
+    {
+      "code": "485",
+      "value": "4699 - FAMILY CONSUMER SCIENCES-OTHR"
+    },
+    {
+      "code": "477",
+      "value": "4602 - FAMILY STUDIES"
+    },
+    {
+      "code": "131",
+      "value": "2409 - FILM/VIDEO & PHOTOGRAPHIC ARTS"
+    },
+    {
+      "code": "403",
+      "value": "4102 - FINANCE"
+    },
+    {
+      "code": "406",
+      "value": "4105 - FINANCIAL PLANNING & SRVCS"
+    },
+    {
+      "code": "128",
+      "value": "2406 - FINE AND STUDIO ARTS"
+    },
+    {
+      "code": "506",
+      "value": "5103 - FIRE PROTECTION"
+    },
+    {
+      "code": "206",
+      "value": "0106 - FISHING & FISHERY SCIENCE/MGMT"
+    },
+    {
+      "code": "207",
+      "value": "0107 - FOOD SCIENCE AND TECHNOLOGY"
+    },
+    {
+      "code": "480",
+      "value": "4605 - FOODS NUTRITN WELLNESS STUDIES"
+    },
+    {
+      "code": "157",
+      "value": "2699 - FOREIGN LANGUAGES & LIT-OTHER"
+    },
+    {
+      "code": "142",
+      "value": "2602 - FOREIGN LITERATURE"
+    },
+    {
+      "code": "269",
+      "value": "0309 - FORENSIC CHEMISTRY"
+    },
+    {
+      "code": "98",
+      "value": "2018 - FORENSIC PSYCHOLOGY"
+    },
+    {
+      "code": "62",
+      "value": "1618 - FOREST ENGINEERING"
+    },
+    {
+      "code": "208",
+      "value": "0108 - FORESTRY"
+    },
+    {
+      "code": "143",
+      "value": "2603 - FRENCH"
+    },
+    {
+      "code": "235",
+      "value": "0210 - GENETICS"
+    },
+    {
+      "code": "289",
+      "value": "0503 - GEOCHEMISTRY"
+    },
+    {
+      "code": "108",
+      "value": "2203 - GEOGRAPHY AND CARTOGRAPHY"
+    },
+    {
+      "code": "50",
+      "value": "1606 - GEOLOGIC & GEOPHYSIC ENGINEER"
+    },
+    {
+      "code": "290",
+      "value": "0504 - GEOLOGICAL SCIENCES"
+    },
+    {
+      "code": "291",
+      "value": "0505 - GEOPHYSICS AND SEISMOLOGY"
+    },
+    {
+      "code": "297",
+      "value": "0511 - GEOSCIENCES"
+    },
+    {
+      "code": "12",
+      "value": "1105 - GEOTECH & GEOENVIRON ENGINEER"
+    },
+    {
+      "code": "144",
+      "value": "2604 - GERMANIC LANGUAGE /LITERATURE"
+    },
+    {
+      "code": "112",
+      "value": "2207 - GERONTOLOGY"
+    },
+    {
+      "code": "419",
+      "value": "4211 - HEALTH CARE ADMINISTRATION"
+    },
+    {
+      "code": "331",
+      "value": "0630 - HEALTH SCIENCES"
+    },
+    {
+      "code": "308",
+      "value": "0607 - HEALTH/MEDICAL ADMIN SERVICES"
+    },
+    {
+      "code": "332",
+      "value": "0631 - HEALTH/MEDICAL PREP PROGRAMS"
+    },
+    {
+      "code": "336",
+      "value": "0699 - HEALTH/MEDICAL SCIENCE-OTHER"
+    },
+    {
+      "code": "366",
+      "value": "3502 - HIGHER EDUCATION"
+    },
+    {
+      "code": "367",
+      "value": "3503 - HIGHER EDUCATION ADMIN"
+    },
+    {
+      "code": "195",
+      "value": "3405 - HIGHER EDUCATION RESEARCH"
+    },
+    {
+      "code": "161",
+      "value": "2703 - HIST & PHILSPHY, SCI/TECHNLGY"
+    },
+    {
+      "code": "524",
+      "value": "5108 - HISTORICAL PRESERVATION"
+    },
+    {
+      "code": "162",
+      "value": "2704 - HISTORY, GENERAL"
+    },
+    {
+      "code": "163",
+      "value": "2799 - HISTORY-OTHER"
+    },
+    {
+      "code": "507",
+      "value": "5104 - HOMELAND SECURITY"
+    },
+    {
+      "code": "209",
+      "value": "0109 - HORTICULTURE BUSINESS SERVICES"
+    },
+    {
+      "code": "416",
+      "value": "4208 - HOSPITALITY ADMIN/MANAGEMENT"
+    },
+    {
+      "code": "481",
+      "value": "4606 - HOUSING & HUMAN ENVIRONMENTS"
+    },
+    {
+      "code": "482",
+      "value": "4607 - HUMAN DEVELOPMENT"
+    },
+    {
+      "code": "410",
+      "value": "4202 - HUMAN RESOURCE DEVELOPMENT"
+    },
+    {
+      "code": "411",
+      "value": "4203 - HUMAN RESOURCES MANAGEMENT"
+    },
+    {
+      "code": "483",
+      "value": "4608 - HUMAN SCIENCES"
+    },
+    {
+      "code": "175",
+      "value": "2905 - HUMANITIES HUMANISTIC STUDIES"
+    },
+    {
+      "code": "298",
+      "value": "0512 - HYDROLOGY"
+    },
+    {
+      "code": "309",
+      "value": "0608 - IMMUNOLOGY"
+    },
+    {
+      "code": "129",
+      "value": "2407 - INDUSTRIAL DESIGN"
+    },
+    {
+      "code": "29",
+      "value": "1301 - INDUSTRIAL ENGINEERING"
+    },
+    {
+      "code": "32",
+      "value": "1399 - INDUSTRIAL ENGINEERING-OTHER"
+    },
+    {
+      "code": "88",
+      "value": "2008 - INDUSTRIAL/ORG PSYCHOLOGY"
+    },
+    {
+      "code": "277",
+      "value": "0404 - INFORMATION SCIENCES/STUDIES"
+    },
+    {
+      "code": "263",
+      "value": "0303 - INORGANIC CHEMISTRY"
+    },
+    {
+      "code": "437",
+      "value": "4308 - INSURANCE"
+    },
+    {
+      "code": "504",
+      "value": "5101 - INTERDISCIPLINARY STUDIES"
+    },
+    {
+      "code": "457",
+      "value": "4404 - INTERIOR ARCHITECTURE"
+    },
+    {
+      "code": "222",
+      "value": "0122 - INTERNATIONAL AGRICULTURE"
+    },
+    {
+      "code": "431",
+      "value": "4302 - INTERNATIONAL BUSINESS"
+    },
+    {
+      "code": "73",
+      "value": "1804 - INTERNATIONAL ECONOMICS"
+    },
+    {
+      "code": "407",
+      "value": "4106 - INTERNATIONAL FINANCE"
+    },
+    {
+      "code": "76",
+      "value": "1901 - INTERNATIONAL RELATIONS"
+    },
+    {
+      "code": "404",
+      "value": "4103 - INVESTMENTS AND SECURITIES"
+    },
+    {
+      "code": "153",
+      "value": "2613 - IRANIAN/PERSIAN LANG & LIT"
+    },
+    {
+      "code": "145",
+      "value": "2605 - ITALIAN"
+    },
+    {
+      "code": "467",
+      "value": "4503 - JOURNALISM"
+    },
+    {
+      "code": "387",
+      "value": "3904 - JR HIGH MID SCH ED & TEACHINGG"
+    },
+    {
+      "code": "186",
+      "value": "3203 - KIND/PRESCHOOL EDU & TEACHNG"
+    },
+    {
+      "code": "324",
+      "value": "0623 - KINESIOLOGY"
+    },
+    {
+      "code": "412",
+      "value": "4204 - LABOR AND INDUSTRIAL RELATIONS"
+    },
+    {
+      "code": "458",
+      "value": "4405 - LANDSCAPE ARCHITECTURE"
+    },
+    {
+      "code": "25",
+      "value": "1207 - LASER AND OPTICAL ENGINEERING"
+    },
+    {
+      "code": "523",
+      "value": "5201 - LAW"
+    },
+    {
+      "code": "438",
+      "value": "4309 - LEADERSHIP"
+    },
+    {
+      "code": "198",
+      "value": "3408 - LEARNING SCIENCES"
+    },
+    {
+      "code": "508",
+      "value": "5105 - LEGAL RESRCH & PROFSSNL STUDY"
+    },
+    {
+      "code": "176",
+      "value": "2906 - LIBERAL ARTS & SCIENCES"
+    },
+    {
+      "code": "489",
+      "value": "4799 - LIBRARY & ARCHIVL STUDIES-OTHR"
+    },
+    {
+      "code": "487",
+      "value": "4701 - LIBRARY & INFORMATION SCIENCE"
+    },
+    {
+      "code": "172",
+      "value": "2902 - LING COMPRTVE RELATD LANG STDY"
+    },
+    {
+      "code": "173",
+      "value": "2903 - LINGUISTICS"
+    },
+    {
+      "code": "167",
+      "value": "2803 - LOGIC"
+    },
+    {
+      "code": "413",
+      "value": "4205 - LOGISTICS & SUPPLY CHAIN MGMT"
+    },
+    {
+      "code": "432",
+      "value": "4303 - MANAGEMENT INFORMATION SYSTEMS"
+    },
+    {
+      "code": "449",
+      "value": "4320 - MANAGEMENT SCIENCE"
+    },
+    {
+      "code": "420",
+      "value": "4212 - MANUFACTURING & TECHNLGY MGMT"
+    },
+    {
+      "code": "31",
+      "value": "1303 - MANUFACTURING ENGINEERING"
+    },
+    {
+      "code": "236",
+      "value": "0211 - MARINE BIOLOGY"
+    },
+    {
+      "code": "299",
+      "value": "0513 - MARINE SCIENCES"
+    },
+    {
+      "code": "433",
+      "value": "4304 - MARKETING"
+    },
+    {
+      "code": "434",
+      "value": "4305 - MARKETING MGMT & RESEARCH"
+    },
+    {
+      "code": "472",
+      "value": "4508 - MASS COMMUNICATIONS"
+    },
+    {
+      "code": "35",
+      "value": "1402 - MATERIALS ENGINEERING"
+    },
+    {
+      "code": "39",
+      "value": "1499 - MATERIALS ENGINEERING-OTHER"
+    },
+    {
+      "code": "36",
+      "value": "1403 - MATERIALS SCIENCE"
+    },
+    {
+      "code": "343",
+      "value": "0799 - MATHEMATICAL SCIENCES-OTHER"
+    },
+    {
+      "code": "340",
+      "value": "0703 - MATHEMATICS"
+    },
+    {
+      "code": "42",
+      "value": "1502 - MECHANICAL ENGINEERING"
+    },
+    {
+      "code": "43",
+      "value": "1599 - MECHANICAL ENGINEERING-OTHER"
+    },
+    {
+      "code": "265",
+      "value": "0305 - MED/PHARM CHEMISTRY"
+    },
+    {
+      "code": "310",
+      "value": "0609 - MEDICAL SCIENCES"
+    },
+    {
+      "code": "322",
+      "value": "0621 - MEDICINAL CHEMISTRY"
+    },
+    {
+      "code": "333",
+      "value": "0632 - MENTAL/SOCIAL HEALTH SERVICES"
+    },
+    {
+      "code": "450",
+      "value": "4321 - MERCHANDIZING"
+    },
+    {
+      "code": "37",
+      "value": "1404 - METALLURGICAL ENGINEERING"
+    },
+    {
+      "code": "293",
+      "value": "0507 - METEOROLOGY"
+    },
+    {
+      "code": "237",
+      "value": "0212 - MICROBIOLOGICAL SCIENCES"
+    },
+    {
+      "code": "278",
+      "value": "0405 - MICROCOMPUTER APPLICATIONS"
+    },
+    {
+      "code": "509",
+      "value": "5106 - MILITARY TECHNOLOGIES"
+    },
+    {
+      "code": "51",
+      "value": "1607 - MINING AND MINERAL ENGINEERING"
+    },
+    {
+      "code": "154",
+      "value": "2614 - MODERN GREEK LANG & LIT"
+    },
+    {
+      "code": "254",
+      "value": "0229 - MOLECULAR BIOLOGY"
+    },
+    {
+      "code": "255",
+      "value": "0230 - MOLECULAR MEDICINE"
+    },
+    {
+      "code": "510",
+      "value": "5107 - MULTIDISCIPLINARY STUDIES"
+    },
+    {
+      "code": "126",
+      "value": "2404 - MUSIC"
+    },
+    {
+      "code": "118",
+      "value": "2302 - MUSIC HISTRY LITERATURE THEORY"
+    },
+    {
+      "code": "119",
+      "value": "2303 - MUSICOLOGY"
+    },
+    {
+      "code": "213",
+      "value": "0113 - NATURAL RES/CONSERVATION"
+    },
+    {
+      "code": "210",
+      "value": "0110 - NATURAL RESOURCE MGMT/POLICY"
+    },
+    {
+      "code": "360",
+      "value": "0901 - NATURAL SCIENCES, GENERAL"
+    },
+    {
+      "code": "363",
+      "value": "0999 - NATURAL SCIENCES-OTHER"
+    },
+    {
+      "code": "52",
+      "value": "1608 - NAVAL ARCH/MARINE ENGINEERING"
+    },
+    {
+      "code": "238",
+      "value": "0213 - NEUROSCIENCES"
+    },
+    {
+      "code": "53",
+      "value": "1609 - NUCLEAR ENGINEERING"
+    },
+    {
+      "code": "348",
+      "value": "0804 - NUCLEAR PHYSICS"
+    },
+    {
+      "code": "311",
+      "value": "0610 - NURSING"
+    },
+    {
+      "code": "239",
+      "value": "0214 - NUTRITION"
+    },
+    {
+      "code": "319",
+      "value": "0618 - OCCUPATIONAL THERAPY"
+    },
+    {
+      "code": "54",
+      "value": "1610 - OCEAN ENGINEERING"
+    },
+    {
+      "code": "294",
+      "value": "0508 - OCEANOGRAPHY"
+    },
+    {
+      "code": "421",
+      "value": "4213 - OPERATIONS MANAGEMENT"
+    },
+    {
+      "code": "30",
+      "value": "1302 - OPERATIONS RESEARCH"
+    },
+    {
+      "code": "349",
+      "value": "0805 - OPTICS/OPTICAL SCIENCES"
+    },
+    {
+      "code": "312",
+      "value": "0611 - OPTOMETRY"
+    },
+    {
+      "code": "496",
+      "value": "4903 - ORDAINED MINISTRY/RABBINATE"
+    },
+    {
+      "code": "264",
+      "value": "0304 - ORGANIC CHEMISTRY"
+    },
+    {
+      "code": "414",
+      "value": "4206 - ORGANIZATIONAL LEADERSHIP"
+    },
+    {
+      "code": "415",
+      "value": "4207 - ORGANIZATIONAL MANAGEMENT"
+    },
+    {
+      "code": "313",
+      "value": "0612 - OSTEOPATHIC MEDICINE"
+    },
+    {
+      "code": "395",
+      "value": "3912 - OUTDOOR EDUCATION"
+    },
+    {
+      "code": "292",
+      "value": "0506 - PALEONTOLOGY"
+    },
+    {
+      "code": "63",
+      "value": "1619 - PAPER SCIENCE AND ENGINEERING"
+    },
+    {
+      "code": "256",
+      "value": "0231 - PARASITOLOGY"
+    },
+    {
+      "code": "211",
+      "value": "0111 - PARK/REC/LEISURE FACIL MGMT"
+    },
+    {
+      "code": "223",
+      "value": "0123 - PARKS/REC/LEISURE STUDIES"
+    },
+    {
+      "code": "240",
+      "value": "0215 - PATHOLOGY"
+    },
+    {
+      "code": "89",
+      "value": "2009 - PERSONALITY PSYCHOLOGY"
+    },
+    {
+      "code": "55",
+      "value": "1611 - PETROLEUM ENGINEERING"
+    },
+    {
+      "code": "314",
+      "value": "0613 - PHARMACEUTICAL SCIENCES"
+    },
+    {
+      "code": "241",
+      "value": "0216 - PHARMACOLOGY"
+    },
+    {
+      "code": "168",
+      "value": "2804 - PHILOSOPHY"
+    },
+    {
+      "code": "497",
+      "value": "4904 - PHILOSOPHY RELIGIOUS STUDY-GEN"
+    },
+    {
+      "code": "169",
+      "value": "2899 - PHILOSOPHY-OTHER"
+    },
+    {
+      "code": "266",
+      "value": "0306 - PHYSICAL CHEMISTRY"
+    },
+    {
+      "code": "392",
+      "value": "3909 - PHYSICAL EDUCATION"
+    },
+    {
+      "code": "361",
+      "value": "0902 - PHYSICAL SCIENCES, GENERAL"
+    },
+    {
+      "code": "320",
+      "value": "0619 - PHYSICAL THERAPY"
+    },
+    {
+      "code": "334",
+      "value": "0634 - PHYSICIAN ASSISTANT"
+    },
+    {
+      "code": "352",
+      "value": "0808 - PHYSICS"
+    },
+    {
+      "code": "358",
+      "value": "0899 - PHYSICS AND ASTRONOMY-OTHER"
+    },
+    {
+      "code": "90",
+      "value": "2010 - PHYSIOLOGICAL PSYCHOLOGY"
+    },
+    {
+      "code": "242",
+      "value": "0217 - PHYSIOLOGY"
+    },
+    {
+      "code": "350",
+      "value": "0806 - PLANETARY ASTRONOMY & SCI"
+    },
+    {
+      "code": "212",
+      "value": "0112 - PLANT SCIENCES"
+    },
+    {
+      "code": "356",
+      "value": "0812 - PLASMA/HIGH-TEMP PHYSICS"
+    },
+    {
+      "code": "315",
+      "value": "0614 - PODIATRY"
+    },
+    {
+      "code": "77",
+      "value": "1902 - POLITICAL SCI & GOVERNMENT"
+    },
+    {
+      "code": "79",
+      "value": "1999 - POLITICAL SCIENCE-OTHER"
+    },
+    {
+      "code": "270",
+      "value": "0310 - POLYMER CHEMISTRY"
+    },
+    {
+      "code": "38",
+      "value": "1405 - POLYMER/PLASTICS ENGINEERING"
+    },
+    {
+      "code": "257",
+      "value": "0232 - POPULATION BIOLOGY"
+    },
+    {
+      "code": "388",
+      "value": "3905 - PRE-ELEMENTARY EDUCATION"
+    },
+    {
+      "code": "316",
+      "value": "0615 - PRE-MEDICINE"
+    },
+    {
+      "code": "341",
+      "value": "0704 - PROBABILITY"
+    },
+    {
+      "code": "424",
+      "value": "4216 - PROJECT MANAGEMENT"
+    },
+    {
+      "code": "91",
+      "value": "2011 - PSYCHOLINGUISTICS"
+    },
+    {
+      "code": "96",
+      "value": "2016 - PSYCHOLOGY, GENERAL"
+    },
+    {
+      "code": "100",
+      "value": "2099 - PSYCHOLOGY-OTHER"
+    },
+    {
+      "code": "92",
+      "value": "2012 - PSYCHOMETRICS"
+    },
+    {
+      "code": "93",
+      "value": "2013 - PSYCHOPHARMACOLOGY"
+    },
+    {
+      "code": "491",
+      "value": "4801 - PUBLIC ADMINISTRATION"
+    },
+    {
+      "code": "109",
+      "value": "2204 - PUBLIC AFFAIRS"
+    },
+    {
+      "code": "317",
+      "value": "0616 - PUBLIC HEALTH"
+    },
+    {
+      "code": "78",
+      "value": "1903 - PUBLIC POLICY ANALYSIS"
+    },
+    {
+      "code": "439",
+      "value": "4310 - PUBLIC POLICY-BUSINESS"
+    },
+    {
+      "code": "468",
+      "value": "4504 - PUBLIC RELATIONS"
+    },
+    {
+      "code": "473",
+      "value": "4509 - PUBLISHING"
+    },
+    {
+      "code": "3",
+      "value": "1002 - PULP AND PAPER PRODUCTION"
+    },
+    {
+      "code": "94",
+      "value": "2014 - QUANTITATIVE PSYCHOLOGY"
+    },
+    {
+      "code": "469",
+      "value": "4505 - RADIO TELEVISION DIGITAL COMM"
+    },
+    {
+      "code": "243",
+      "value": "0218 - RADIOBIOLOGY"
+    },
+    {
+      "code": "440",
+      "value": "4311 - REAL ESTATE"
+    },
+    {
+      "code": "462",
+      "value": "4409 - REAL ESTATE DEVELOPMENT"
+    },
+    {
+      "code": "335",
+      "value": "0635 - REHABILITATION AND THERAPY"
+    },
+    {
+      "code": "498",
+      "value": "4999 - RELIGION AND THEOLOGY-OTHER"
+    },
+    {
+      "code": "494",
+      "value": "4901 - RELIGION/RELIGIOUS STUDIES"
+    },
+    {
+      "code": "174",
+      "value": "2904 - RELIGIOUS STUDIES"
+    },
+    {
+      "code": "375",
+      "value": "3704 - REMEDIAL EDUCATION"
+    },
+    {
+      "code": "99",
+      "value": "2019 - RESEARCH & EXPERIMENTAL PSYCH"
+    },
+    {
+      "code": "138",
+      "value": "2505 - RHETORIC & COMP/WRITING STUDY"
+    },
+    {
+      "code": "441",
+      "value": "4312 - RISK MANAGEMENT"
+    },
+    {
+      "code": "155",
+      "value": "2615 - ROMANCE LANGUAGES & LITERATURE"
+    },
+    {
+      "code": "104",
+      "value": "2103 - RURAL SOCIOLOGY"
+    },
+    {
+      "code": "146",
+      "value": "2606 - RUSSIAN"
+    },
+    {
+      "code": "451",
+      "value": "4322 - SALES"
+    },
+    {
+      "code": "381",
+      "value": "3803 - SCHOOL COUNSELING/GUID SRVCS"
+    },
+    {
+      "code": "196",
+      "value": "3406 - SCHOOL PSYCHOLOGY"
+    },
+    {
+      "code": "362",
+      "value": "0903 - SCIENCE TECHNOLOGIES"
+    },
+    {
+      "code": "369",
+      "value": "3601 - SECONDARY EDU & TEACHING"
+    },
+    {
+      "code": "370",
+      "value": "3602 - SECONDARY LVL TEACHING FIELDS"
+    },
+    {
+      "code": "147",
+      "value": "2607 - SEMITIC LANGUAGES"
+    },
+    {
+      "code": "156",
+      "value": "2616 - SLAVIC BALTIC ALBANIA LANG/LIT"
+    },
+    {
+      "code": "425",
+      "value": "4217 - SMALL BUSINESS OPERATIONS"
+    },
+    {
+      "code": "389",
+      "value": "3906 - SOC/PHILOSPHCL FOUNDTN EDU"
+    },
+    {
+      "code": "95",
+      "value": "2015 - SOCIAL PSYCHOLOGY"
+    },
+    {
+      "code": "114",
+      "value": "2209 - SOCIAL SCIENCES, GENERAL"
+    },
+    {
+      "code": "500",
+      "value": "5001 - SOCIAL WORK"
+    },
+    {
+      "code": "502",
+      "value": "5099 - SOCIAL WORK-OTHER"
+    },
+    {
+      "code": "115",
+      "value": "2299 - SOCIAL/BEHAVIORAL SCI-OTHER"
+    },
+    {
+      "code": "103",
+      "value": "2102 - SOCIOLOGY"
+    },
+    {
+      "code": "214",
+      "value": "0114 - SOIL SCIENCES"
+    },
+    {
+      "code": "351",
+      "value": "0807 - SOLID STATE PHYSICS"
+    },
+    {
+      "code": "148",
+      "value": "2608 - SPANISH"
+    },
+    {
+      "code": "376",
+      "value": "3705 - SPECIAL EDUCATION AND TEACHING"
+    },
+    {
+      "code": "377",
+      "value": "3799 - SPECIAL EDUCATION-OTHER"
+    },
+    {
+      "code": "470",
+      "value": "4506 - SPEECH COMMUNICATION"
+    },
+    {
+      "code": "321",
+      "value": "0620 - SPEECH-LANGUAGE PATHOLOGY"
+    },
+    {
+      "code": "426",
+      "value": "4218 - SPORT & FITNESS ADMIN/MGMT"
+    },
+    {
+      "code": "443",
+      "value": "4314 - SPORTS MANAGEMENT"
+    },
+    {
+      "code": "445",
+      "value": "4316 - STAT & OPERATIONAL RESEARCH"
+    },
+    {
+      "code": "342",
+      "value": "0705 - STATISTICS"
+    },
+    {
+      "code": "444",
+      "value": "4315 - STRATEGY"
+    },
+    {
+      "code": "13",
+      "value": "1106 - STRUCTURAL ENGINEERING"
+    },
+    {
+      "code": "382",
+      "value": "3899 - STU COUNSLNG PRSNNL SRVCS OTH"
+    },
+    {
+      "code": "442",
+      "value": "4313 - SUPPLY CHAIN MANAGEMENT"
+    },
+    {
+      "code": "14",
+      "value": "1107 - SURVEYING ENGINEERING"
+    },
+    {
+      "code": "258",
+      "value": "0233 - SYSTEMATICS"
+    },
+    {
+      "code": "279",
+      "value": "0406 - SYSTEMS ANALYSIS"
+    },
+    {
+      "code": "56",
+      "value": "1612 - SYSTEMS ENGINEERING"
+    },
+    {
+      "code": "399",
+      "value": "4002 - TAXATION"
+    },
+    {
+      "code": "390",
+      "value": "3907 - TEACH ENG, SECOND/FOREIGN LANG"
+    },
+    {
+      "code": "26",
+      "value": "1208 - TELECOMMUN ENGINEERING"
+    },
+    {
+      "code": "427",
+      "value": "4219 - TELECOMMUNICATIONS MANAGEMENT"
+    },
+    {
+      "code": "57",
+      "value": "1613 - TEXTILE SCIENCES & ENGINEERING"
+    },
+    {
+      "code": "120",
+      "value": "2304 - THEATRE LIT, HISTORY/CRITICISM"
+    },
+    {
+      "code": "495",
+      "value": "4902 - THEOLOGY & RELIGIOUS VOCATIONS"
+    },
+    {
+      "code": "357",
+      "value": "0813 - THEOR & MATHMATIC PHYSICS"
+    },
+    {
+      "code": "271",
+      "value": "0311 - THEORETICAL CHEMISTRY"
+    },
+    {
+      "code": "244",
+      "value": "0219 - TOXICOLOGY"
+    },
+    {
+      "code": "15",
+      "value": "1108 - TRANSPORT/HIGHWAY ENGINEERING"
+    },
+    {
+      "code": "446",
+      "value": "4317 - TRANSPORTATION"
+    },
+    {
+      "code": "199",
+      "value": "0000 - UNDECIDED"
+    },
+    {
+      "code": "459",
+      "value": "4406 - URBAN DESIGN"
+    },
+    {
+      "code": "110",
+      "value": "2205 - URBAN STUDIES/AFFAIRS"
+    },
+    {
+      "code": "318",
+      "value": "0617 - VETERINARY MEDICINE"
+    },
+    {
+      "code": "323",
+      "value": "0622 - VETERINARY SCIENCE"
+    },
+    {
+      "code": "393",
+      "value": "3910 - VOCATIONAL & TECHNICAL ED"
+    },
+    {
+      "code": "16",
+      "value": "1109 - WATER RESOURCES ENGINEERING"
+    },
+    {
+      "code": "215",
+      "value": "0115 - WILDLIFE/LANDS SCIENCE & MGMT"
+    },
+    {
+      "code": "4",
+      "value": "1003 - WOOD SCIENCE"
+    },
+    {
+      "code": "484",
+      "value": "4609 - WORK AND FAMILY STUDIES"
+    },
+    {
+      "code": "501",
+      "value": "5002 - YOUTH SERVICES/ADMIN"
+    },
+    {
+      "code": "245",
+      "value": "0220 - ZOOLOGY"
+    }
+  ]
+}
