@@ -25,7 +25,9 @@ const searchInput = document.getElementById("searchInput");
  */
 
 async function fetchData() {
-  const resp = await fetch("data/codes.json", { cache: "no-cache" });
+  const resp = await fetch("data/data_the_site_uses/countries.json", {
+    cache: "no-cache",
+  });
   if (!resp.ok) throw new Error("Failed to load data");
   return resp.json();
 }
