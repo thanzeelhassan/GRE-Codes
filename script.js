@@ -25,11 +25,27 @@ const searchInput = document.getElementById("searchInput");
  */
 
 async function fetchData() {
-  const resp = await fetch("data/data_the_site_uses/countries.json", {
-    cache: "no-cache",
-  });
-  if (!resp.ok) throw new Error("Failed to load data");
-  return resp.json();
+  try {
+    const [countriesResp, institutionsResp] = await Promise.all([
+      fetch("data/data_the_site_uses/countries.json", { cache: "no-cache" }),
+      fetch("data/data_the_site_uses/institutions.json", { cache: "no-cache" }),
+    ]);
+
+    if (!countriesResp.ok || !institutionsResp.ok) {
+      throw new Error("Failed to load data");
+    }
+
+    const countriesData = await countriesResp.json();
+    const institutionsData = await institutionsResp.json();
+
+    return {
+      countries: countriesData.countries,
+      institutions: institutionsData.institutions,
+    };
+  } catch (error) {
+    console.error("Error loading data:", error);
+    throw error;
+  }
 }
 
 function populateCountries(countries) {
@@ -95,17 +111,27 @@ function renderRows(institutions) {
 }
 
 function filterInstitutions(data) {
-  const country = countrySelect.value;
-  const region = stateSelect.value;
-  const query = (searchInput?.value || "").trim().toLowerCase();
-  let rows = data.institutions.filter((i) => i.country === country);
-  const countryMeta = data.countries.find((c) => c.code === country);
-  if (countryMeta && countryMeta.hasStates && region) {
-    rows = rows.filter((i) => i.region === region);
+  if (!data || !data.institutions) {
+    console.error("No institutions data available");
+    renderRows([]);
+    return;
   }
+
+  const country = countrySelect.value;
+  let rows = data.institutions.filter((i) => i.country === country);
+
+  const selectedCountry = data.countries.find((c) => c.name === country);
+  const state = stateSelect.value;
+
+  if (selectedCountry?.hasStates && state) {
+    rows = rows.filter((i) => i.region === state);
+  }
+
+  const query = (searchInput?.value || "").trim().toLowerCase();
   if (query) {
     rows = rows.filter((i) => i.name.toLowerCase().includes(query));
   }
+
   renderRows(rows);
 }
 
