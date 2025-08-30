@@ -25,11 +25,27 @@ const searchInput = document.getElementById("searchInput");
  */
 
 async function fetchData() {
-  const resp = await fetch("data/data_the_site_uses/countries.json", {
-    cache: "no-cache",
-  });
-  if (!resp.ok) throw new Error("Failed to load data");
-  return resp.json();
+  try {
+    const [countriesResp, institutionsResp] = await Promise.all([
+      fetch("data/data_the_site_uses/countries.json", { cache: "no-cache" }),
+      fetch("data/data_the_site_uses/institutions.json", { cache: "no-cache" }),
+    ]);
+
+    if (!countriesResp.ok || !institutionsResp.ok) {
+      throw new Error("Failed to load data");
+    }
+
+    const countriesData = await countriesResp.json();
+    const institutionsData = await institutionsResp.json();
+
+    return {
+      countries: countriesData.countries,
+      institutions: institutionsData.institutions,
+    };
+  } catch (error) {
+    console.error("Error loading data:", error);
+    throw error;
+  }
 }
 
 function populateCountries(countries) {
@@ -95,18 +111,56 @@ function renderRows(institutions) {
 }
 
 function filterInstitutions(data) {
-  const country = countrySelect.value;
-  const region = stateSelect.value;
-  const query = (searchInput?.value || "").trim().toLowerCase();
-  let rows = data.institutions.filter((i) => i.country === country);
-  const countryMeta = data.countries.find((c) => c.code === country);
-  if (countryMeta && countryMeta.hasStates && region) {
-    rows = rows.filter((i) => i.region === region);
+  if (!data || !data.institutions) {
+    console.error("No institutions data available");
+    renderRows([]);
+    return;
   }
+
+  const country = countrySelect.value;
+  let rows = data.institutions.filter((i) => i.country === country);
+
+  const selectedCountry = data.countries.find((c) => c.name === country);
+  const state = stateSelect.value;
+
+  if (selectedCountry?.hasStates && state) {
+    rows = rows.filter((i) => i.region === state);
+  }
+
+  const query = (searchInput?.value || "").trim().toLowerCase();
   if (query) {
     rows = rows.filter((i) => i.name.toLowerCase().includes(query));
   }
+
   renderRows(rows);
+}
+
+async function fetchStates() {
+  const resp = await fetch("data/data_the_site_uses/states.json", {
+    cache: "no-cache",
+  });
+  if (!resp.ok) throw new Error("Failed to load states data");
+  return resp.json();
+}
+
+async function populateStates(country) {
+  try {
+    const statesData = await fetchStates();
+    const states = statesData[country] || [];
+
+    stateSelect.innerHTML =
+      '<option value="" selected>Select a state…</option>';
+    for (const stateName of states) {
+      const opt = document.createElement("option");
+      opt.value = stateName;
+      opt.textContent = stateName;
+      stateSelect.appendChild(opt);
+    }
+  } catch (error) {
+    console.error("Error loading states:", error);
+    stateSelect.innerHTML =
+      '<option value="" selected>Failed to load states</option>';
+  }
 }
 
 async function init() {
@@ -114,17 +168,19 @@ async function init() {
     const data = await fetchData();
     populateCountries(data.countries);
 
-    countrySelect.addEventListener("change", () => {
+    countrySelect.addEventListener("change", async () => {
       const country = countrySelect.value;
-      const selectedCountry = data.countries.find((c) => c.code === country);
+      const selectedCountry = data.countries.find((c) => c.name === country);
+
       if (selectedCountry && selectedCountry.hasStates) {
         stateControl.style.display = "";
-        populateStates(data.regionsByCountry[country] || []);
+        await populateStates(selectedCountry.name);
       } else {
         stateControl.style.display = "none";
         stateSelect.innerHTML =
           '<option value="" selected>Select a state…</option>';
       }
+
       filterInstitutions(data);
     });
 
