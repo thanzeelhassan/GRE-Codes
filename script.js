@@ -51,7 +51,7 @@ async function fetchData() {
 function populateCountries(countries) {
   for (const c of countries) {
     const opt = document.createElement("option");
-    opt.value = c.code;
+    opt.value = c.name;
     opt.textContent = c.name;
     countrySelect.appendChild(opt);
   }
@@ -61,8 +61,8 @@ function populateStates(regions) {
   stateSelect.innerHTML = '<option value="" selected>Select a state…</option>';
   for (const r of regions) {
     const opt = document.createElement("option");
-    opt.value = r.code;
-    opt.textContent = r.name;
+    opt.value = r;        // Use state name as value
+    opt.textContent = r;  // Use state name as display text
     stateSelect.appendChild(opt);
   }
 }
@@ -94,7 +94,7 @@ function renderRows(institutions) {
         await navigator.clipboard.writeText(inst.code);
         copyBtn.textContent = "Copied!";
         setTimeout(() => (copyBtn.textContent = inst.code), 900);
-      } catch {}
+      } catch { }
     });
     codeTd.appendChild(copyBtn);
 
@@ -105,9 +105,8 @@ function renderRows(institutions) {
     tr.appendChild(nameTd);
     resultsTableBody.appendChild(tr);
   }
-  resultCount.textContent = `${institutions.length} ${
-    institutions.length === 1 ? "match" : "matches"
-  }`;
+  resultCount.textContent = `${institutions.length} ${institutions.length === 1 ? "match" : "matches"
+    }`;
 }
 
 function filterInstitutions(data) {

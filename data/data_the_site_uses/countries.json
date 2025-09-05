@@ -95,7 +95,7 @@
     { "name": "United Arab Emirates", "hasStates": false },
     { "name": "United Kingdom", "hasStates": false },
     { "name": "United States", "hasStates": true },
-    { "name": "United States Territories", "hasStates": false },
+    { "name": "United States Territories", "hasStates": true },
     { "name": "Uzbekistan", "hasStates": false },
     { "name": "West Indies", "hasStates": false },
     { "name": "Yemen", "hasStates": false },
