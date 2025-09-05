@@ -25,20 +25,46 @@ body {
 .site-header {
   padding: 32px 16px 8px;
   text-align: center;
-  background: linear-gradient(
-    180deg,
-    rgba(74, 163, 255, 0.12),
-    rgba(0, 0, 0, 0)
-  );
+  background: linear-gradient(180deg,
+      rgba(74, 163, 255, 0.12),
+      rgba(0, 0, 0, 0));
 }
 
 .site-header h1 {
   margin: 0;
   font-size: 28px;
 }
+
 .site-header .subtitle {
   margin: 8px 0 0;
   color: var(--muted);
+}
+
+.code-selector {
+  display: flex !important;
+  justify-content: center;
+  gap: 20px !important;
+  margin-bottom: 20px;
+}
+
+.selector-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--panel);
+  color: var(--text);
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.selector-btn:hover {
+  background: var(--border);
+}
+
+.selector-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .container {
@@ -77,11 +103,13 @@ body {
 .results {
   margin-top: 16px;
 }
+
 .results-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .result-count {
   color: var(--muted);
 }
@@ -98,6 +126,7 @@ table {
   width: 100%;
   border-collapse: collapse;
 }
+
 thead th {
   text-align: left;
   padding: 12px 14px;
@@ -105,6 +134,7 @@ thead th {
   color: var(--muted);
   border-bottom: 1px solid var(--border);
 }
+
 tbody td {
   padding: 12px 14px;
   border-bottom: 1px solid #1a2433;
