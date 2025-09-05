@@ -51,5 +51,10 @@
     "West Virginia",
     "Wisconsin",
     "Wyoming"
+  ],
+  "United States Territories": [
+    "Commonwealth of Puerto Rico",
+    "Guam",
+    "US Virgin Islands"
   ]
 }
