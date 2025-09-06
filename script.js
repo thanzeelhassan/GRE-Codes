@@ -123,7 +123,7 @@ function filterInstitutions(data) {
   const state = stateSelect.value;
 
   if (selectedCountry?.hasStates && state) {
-    rows = rows.filter((i) => i.region === state);
+    rows = rows.filter((i) => i.state === state);
   }
 
   const query = (searchInput?.value || "").trim().toLowerCase();
