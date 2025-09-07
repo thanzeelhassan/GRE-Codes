@@ -1,78 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GRE Department Codes</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-        <h1>GRE Department Codes</h1>
-        <p class="subtitle">Find the code for your department</p>
+      <h1>GRE Department Codes</h1>
+      <p class="subtitle">Find the code for your department</p>
     </header>
 
     <div class="container">
-        <div class="code-selector controls">
-            <a href="index.html" class="selector-btn">Get Institution Code</a>
-            <a href="departments.html" class="selector-btn active">Get Department Code</a>
-        </div>
+      <div class="code-selector controls">
+        <a href="index.html" class="selector-btn">Get Institution Code</a>
+        <a href="departments.html" class="selector-btn active"
+          >Get Department Code</a
+        >
+      </div>
     </div>
 
     <main class="container">
-        <div class="controls">
-            <div class="control">
-                <label for="departmentSelect">Department Category</label>
-                <select id="departmentSelect">
-                    <option value="" selected>Select a department category…</option>
-                </select>
-            </div>
-
-            <div class="control" id="subDepartmentControl">
-                <label for="subDepartmentSelect">Sub Department</label>
-                <select id="subDepartmentSelect">
-                    <option value="" selected>Select a sub department…</option>
-                </select>
-            </div>
-
-            <div class="control">
-                <label for="searchInput">Search</label>
-                <input type="text" id="searchInput" placeholder="Filter by name…" />
-            </div>
+      <div class="controls">
+        <div class="control">
+          <label for="departmentSelect">Department Category</label>
+          <select id="departmentSelect">
+            <option value="" selected>Select a department category…</option>
+          </select>
         </div>
 
-        <div class="results">
-            <div class="results-header">
-                <h2>Results</h2>
-                <span id="resultCount">0 matches</span>
-            </div>
-            <div class="table-wrapper">
-                <table id="resultsTable">
-                    <thead>
-                        <tr>
-                            <th>Code</th>
-                            <th>Name</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2" class="placeholder">
-                                Select a department category to see codes
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <div class="control" id="subDepartmentControl">
+          <label for="subDepartmentSelect">Sub Department</label>
+          <select id="subDepartmentSelect">
+            <option value="" selected>Select a sub department…</option>
+          </select>
         </div>
+
+        <div class="control">
+          <label for="searchInput">Search</label>
+          <input type="text" id="searchInput" placeholder="Filter by name…" />
+        </div>
+      </div>
+
+      <div class="results">
+        <div class="results-header">
+          <h2>Results</h2>
+          <span id="resultCount">0 matches</span>
+        </div>
+        <div class="table-wrapper">
+          <table id="resultsTable">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th>Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" class="placeholder">
+                  Select a department category to see codes
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
 
     <footer class="site-footer">
-        <p>Click on a code to copy it to your clipboard</p>
+      <p>Click on a code to copy it to your clipboard</p>
     </footer>
 
     <script src="departments.js"></script>
-</body>
-
+  </body>
 </html>
